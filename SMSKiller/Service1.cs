@@ -41,7 +41,7 @@ namespace SMSKiller
                             || now.DayOfWeek == DayOfWeek.Thursday
                             || now.DayOfWeek == DayOfWeek.Friday;
 
-            var isWorkHours = now.Hour > 8 && now.Hour < 19;
+            var isWorkHours = now.Hour >= 7 && now.Hour <= 19;
 
             return isWeekDay && isWorkHours;
         }
