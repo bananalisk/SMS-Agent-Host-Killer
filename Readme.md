@@ -2,7 +2,7 @@
 
 This is a windows service that stops the service "SMS Agent Host" if it is not already stopped.
 
-It will only act during weekdays between 08:00 and 19:00.
+It will only act during weekdays between 07:00 and 19:59.
 
 ## Installation
 
